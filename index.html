@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Thêm thư viện Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+    <title>Fast Food</title>
+</head>
+
+<body>
+    <div class="nav_info">
+        <div class="nav_info-left">
+            <span><i class="bi bi-phone" style="padding: 0 10px;"></i> Call us: 0389056171
+            </span>
+            <span style="margin: 0 30px;"> <i class="bi bi-geo-alt" style="padding: 0 10px;"></i> Hoa Khanh, Lien Chieu,
+                Da
+                Nang
+            </span>
+        </div>
+        <div class="nav_info-right">
+            <a href=""> <i class="bi bi-facebook"></i>
+            </a>
+            <a href=""> <i class="bi bi-twitter"></i>
+            </a>
+            <a href=""> <i class="bi bi-youtube"></i>
+            </a>
+            <a href=""> <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <div class="nav_main">
+        <a href="">
+            <img src="https://seeklogo.com/images/F/fastfood-logo-D673849A4C-seeklogo.com.png">
+        </a>
+        <ul style="margin: 0 10px; padding: 10px;">
+            <li>Home <i class="fa-solid fa-chevron-down arrow"></i></li>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Shop <i class="fa-solid fa-chevron-down arrow"></i></li>
+            <li>Blog <i class="fa-solid fa-chevron-down arrow"></i></li>
+            <li>Page <i class="fa-solid fa-chevron-down arrow"></i></li>
+            <li>Contact</li>
+        </ul>
+        <i class="fa-solid fa-truck-fast" style="color: #e32400; font-size: 35px; padding-right: 5px;"></i>
+        <div class="nav_text" style="margin-right: 20px;">
+            <p style="color: gray; font-size: small;">Call and order:</p>
+            <p style="font-size: 25px; color: #FFC222;">0389056171</p>
+        </div>
+        <div class="nav_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="login.html"><i class="fa-solid fa-user"></i></a>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+    </div>
+
+    <div class="ad_main" id="adMain">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h1 style="font-size: 70px; font-weight: 700; margin: 0;position: absolute;top:250px;left: 190px;">AMERICAN
+            </h1>
+            <div class="ad_text">
+                <h1 style="color: #FFC222;font-size: 120px; font-weight: 700;">BURGER</h1>
+                <p style="color: rgb(64, 158, 77); font-size: 30px; font-weight: 600;">Medium 2-topping* pizza</p>
+                <p style="color: rgb(156, 153, 153); font-size: medium;">*Additional charge for premium toppings.
+                    Minimum of 2 required.</p>
+            </div>
+            <span style="position: absolute;top: 580px; left: 200px;" class="d-flex">
+                <a href=""
+                    style="padding: 20px 40px;margin-right: 50px; background-color: #FFC222; text-decoration: none; border-radius: 10px; color: black; font-weight: 600; ">ORDER
+                    NOW</a>
+                <p style="color: rgb(64, 158, 77); font-size: 30px; font-weight: 600;">$12.99 <sub
+                        style="color: rgb(156, 153, 153)">$19.99
+                    </sub></p>
+            </span>
+        </div>
+
+        <div class="ad_sub"></div>
+
+        <img src="img/h2_pepper.png" id="movingImg">
+        <img src="img/h2_pepper.png" id="movingImg2">
+        <img src="img/h2_burger.png" id="item2">
+        <img src="img/h2_shallot.png" id="item3">
+        <img src="img/h2_basil.png" id="item4">
+        <img src="img/h2_tomato.png" id="item5">
+    </div>
+
+    <div class="food_item-main">
+        <div class="food_item-container">
+            <div class="food_item-transition">
+                <div class="food_item-overlay">
+                    <img src="img/food-item-1.png">
+                </div>
+            </div>
+        </div>
+        <div class="food_item-container">
+            <div class="food_item-transition">
+                <div class="food_item-overlay">
+                    <img src="img/h1_shape-2.png">
+                </div>
+            </div>
+        </div>
+        <div class="food_item-container">
+            <div class="food_item-transition">
+                <div class="food_item-overlay">
+                    <img src="img/h1_shape-3.png">
+                </div>
+            </div>
+        </div>
+        <div class="food_item-container">
+            <div class="food_item-transition">
+                <div class="food_item-overlay">
+                    <img src="img/h1_shape-4.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div style="height: 13300px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var navbar = document.querySelector('.nav_main');
+            if (window.scrollY >= 100) {
+                navbar.style.height = '70px';
+            } else {
+                navbar.style.height = '120px';
+            }
+        });
+    </script>
+
+    <script>
+        var adMain = document.getElementById('adMain');
+        var movingImg = document.getElementById('movingImg');
+        var movingImg2 = document.getElementById('movingImg2');
+        adMain.addEventListener('mousemove', function (event) {
+            var mouseX = event.clientX;
+            var mouseY = event.clientY;
+            var imgX = (mouseX / window.innerWidth) * 50;
+            var imgY = (mouseY / window.innerHeight) * 50;
+            movingImg.style.transform = `translate(${imgX}%, ${imgY}%)`;
+            movingImg2.style.transform = `translate(-${imgX}%, -${imgY}%)`;
+        });
+    </script>
+
+    <script>
+        var adMain = document.getElementById('adMain');
+        var tiltImg = document.getElementById('item2');
+        var maxTilt = -20;
+        window.addEventListener('scroll', function () {
+            var scrollY = window.scrollY;
+            var tiltValue = -scrollY / 10;
+            if (tiltValue <= maxTilt) {
+                tiltValue = maxTilt;
+            }
+            tiltImg.style.transform = `rotate(${tiltValue}deg)`;
+        });
+    </script>
+
+    <script>
+        var scrollImg = document.getElementById('item3');
+        var scrollImg2 = document.getElementById('item4');
+        var scrollImg3 = document.getElementById('item5');
+        var minY = 0;
+        var maxY = 200;
+
+        window.addEventListener('scroll', function () {
+            var scrollY = window.scrollY;
+            var scrollY2 = window.scrollY2;
+            var translateY = Math.min(maxY, Math.max(minY, scrollY - minY));
+            var translateY2 = Math.max(maxY, Math.max(minY, scrollY2 - minY));
+            var translateY3 = Math.max(maxY, Math.max(minY, scrollY2 - minY));
+            scrollImg.style.transform = `translateY(${translateY}px)`;
+            scrollImg2.style.transform = `translateY(-${translateY}px)`;
+            scrollImg3.style.transform = `translateY(-${translateY}px)`;
+        });
+    </script>
+
+    <script>
+        $('.food_item-main').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 700,
+        });
+    </script>
+
+</body>
+
+</html>
